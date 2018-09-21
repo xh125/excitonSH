@@ -1,0 +1,35 @@
+SYSTEM = MoS4W
+ISTART = 0
+ICHARG = 2
+ENCUT = 500
+PREC = Accurate
+GGA = PE
+NBANDS = 40
+#########set wannier ########
+LWANNIER90 = .TRUE.
+LWANNIER90_RUN = .TRUE.
+LWRITE_MMN_AMN = .TRUE.
+#LWRITE_UNK     = .TRUE.
+#############################
+EDIFF = 1E-7
+#ISYM = -1
+#LREAL = Auto
+#IBRION = 1
+ALGO = Fast
+NWRITE = 3
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
+#EDIFFG = -0.002
+#NSW = 200
+#ISIF = 3
+ISMEAR = 0
+SIGMA = 0.05
+#POTIM = 0.5
+#KPAR = 
+#NPAR = 2
+#NCORE=
+###VDW-D2#######
+IVDW = 10
+#############   Mo     S     W     
+VDW_C6      = 24.67   5.57  81.24 
+VDW_R0      = 1.639  1.683  1.772 

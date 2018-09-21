@@ -1,0 +1,16 @@
+在计算目录下，写入输入参数文件文件shiftinp
+内容包括：
+&input
+dQ        = 0.0020
+nstep      = 5
+lbsub      = .TRUE.
+amass(1)   =  95.942
+amass(2)   =  32.065
+amass(3)   =  183.841
+/
+
+nstep ,体系将沿简正坐标正负方向分别偏移nstep步
+
+和wannier执行参数文件夹wannierinput
+在wannierinput文件夹中包含文件INCAR，vasp.bsub，wannier90.win
+并在计算目录下执行NsPOSCAR.x

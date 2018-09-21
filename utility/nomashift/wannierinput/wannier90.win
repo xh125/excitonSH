@@ -1,0 +1,38 @@
+num_wann =  22
+num_bands = 40
+#num_iter = 150000
+#conv_window = 3
+dis_num_iter = 20000
+#exclude_bands: 1-4, 30-40
+
+dis_win_max=5.5
+dis_win_min=-9
+dis_froz_min=-5
+dis_froz_max=4
+
+begin projections
+Mo:d
+S:p
+W:d
+end projections
+
+translate_home_cell = true
+write_xyz = true
+
+###############################plot ###################
+#restart = plot
+#wannier_plot = true
+write_hr_diag = true
+#bands_plot= true
+#bands_num_points= 80
+#bands_plot_project=22
+#wannier_plot_supercell= 5 5 1 
+write_hr= true
+#fermi_surface_plot= true
+#fermi_energy= 0.1620
+
+#begin kpoint_path
+#M 0.000	0.500	0.000  G 0.000	0.000	0.000 
+#G 0.000	0.000	0.000  K 0.333	0.333	0.000
+#K 0.333	0.333	0.000  M 0.000	0.500	0.000
+#end kpoint_path

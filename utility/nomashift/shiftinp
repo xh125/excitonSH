@@ -1,0 +1,8 @@
+&input 
+dQ        = 0.0020  
+nstep      = 5
+lbsub      = .False.
+amass(1)   =  95.942
+amass(2)   =  32.065
+amass(3)   =  183.841
+/

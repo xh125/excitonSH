@@ -1,0 +1,8 @@
+#BSUB -W 10:10 
+#BSUB -n 20
+#BSUB -R "span[ptile=20]" 
+#BSUB -q "c_rtzhang"
+#BSUB -o %J.out 
+#BSUB -e %J.err
+mpijob.intelmpi vasp_std > MoS4W_WF22_0.00
+

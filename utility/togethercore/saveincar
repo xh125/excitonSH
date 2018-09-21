@@ -1,0 +1,9 @@
+&saveinput
+nnode=,
+ncore=,
+dt=,
+nstep=,
+nsnap=,
+nbasis=,
+nfreem=,
+/
